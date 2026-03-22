@@ -20,6 +20,10 @@ public class Main {
             System.out.print("CHOOSE: ");
             String choice = scanner.nextLine().trim();
             System.out.println("CHOICE: " + choice);
+
+            switch (choice) {
+                case "0" -> running = false;
+            }
         }
     }
 }
